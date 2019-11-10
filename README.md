@@ -6,7 +6,7 @@ flask_app.py - This file is used to load and deploy your ML model on a microWebS
                 the curl command <curl -X POST 0.0.0.0:5000/predict -H 'Content-Type: application/json'>
 
 
-image_classifier_utils - This file contains defs for loading , processing , showing and predicting the class of the foriegn 
+image_classifier_utils.py -This file contains defs for loading , processing , showing and predicting the class of the foriegn 
                           test images.
 
 io.py - This file retrieves test image url from the MySql database (phpMyAdmin)  which is in the local machine 
